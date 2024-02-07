@@ -1,0 +1,36 @@
+
+body{
+    background-color:#fceef5">
+    
+}
+h1, h2, h3{
+    color: #f72b8d;
+}
+hr{
+    border: 10px rgb(172, 169, 169);
+    width:10%;
+    background-color: #fceef5;
+    border-style: none;
+    border-top-style: dotted;
+}
+hr.dotted{
+    width:50%;
+    border:10px rgba(248, 134, 3, 0.322);
+    background-color: #fceefc;
+    border-style:none;
+    border-top-style: dashed;
+}
+table{
+
+    width:100%;
+    padding:20px 0;
+}
+table tr.head{
+    background-color: black;
+    text-align: center;
+    /* max-width: 150px; */
+}
+table tr td{
+    width:33%;
+    /* color:#f1f1f1; */
+}
