@@ -1,0 +1,36 @@
+/* *{
+    margin: 0px;
+} */
+nav{
+    color:rgb(168, 164, 164);
+    text-transform: uppercase;
+    font-family: 'Audiowide', cursive, sans-serif;
+    border-bottom: 2px solid #f1f1f1;
+    /* padding:calc(10%/6) 0px; */
+    margin-bottom: calc(10%/6);
+    text-align: center;
+    font-size: 3rem;
+}
+img{
+    width:30%;
+    /* margin: 1.66%; OR */
+    margin: calc(10%/6);
+}
+.author{
+    color: rgb(70, 70, 241);
+}
+p{
+    text-align: center;
+    font-size: 2vw;
+    font-weight: 700;
+    color: inherit;
+    text-decoration: underline red;
+    letter-spacing: 1vw;
+    margin:0
+}
+hr{
+    border:none;
+    border-top: 10px dotted #fd0303;
+    width:60vw;
+}
+
