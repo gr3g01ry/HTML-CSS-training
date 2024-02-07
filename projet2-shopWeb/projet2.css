@@ -1,0 +1,157 @@
+/*PARTIE GENERALE*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font:14px helvetica, "times New Roman", Sans-serif;
+    background-color: #fff;
+    color:#333;
+}
+section{
+    margin-bottom: 10px;
+}
+a{
+    color: #999;
+    text-decoration: none;
+}
+a:hover{
+    color:#8f0000;
+}
+p{
+    line-height: 1.6em;
+}
+h1,h2{
+    margin: 5px;
+    font-family: cursive,"Comic sans MS", sans-serif;
+    color:#cd352a;    
+}
+.container{
+    width: 980px;
+    margin: 0 auto;
+}
+.clear{
+    clear:both;
+}
+
+/*Header*/
+.logo{
+    float: left;
+    width: 200px;
+    margin-top: 10px;
+}
+.header-top{
+    float: right;
+    font-size: 16px;
+    color: #cc66ca;
+    text-align: right;
+    width: 300px;
+}
+.header-top span{
+    font-size: 19px;
+    font-weight: bold;
+    color: darkmagenta;
+}
+nav{
+    float: right;
+    text-align: right;
+    margin-top: 5px;
+    width: 500px;
+}
+nav ul{
+    list-style: none;
+    padding: 5px 0;
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px 5px;
+    transition: 2s ease;
+    width: 70px;
+    
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+/*Banner section*/
+#banner{
+    margin-top: 10px;
+}
+
+/*Partie présentation produit*/
+.product-div{
+    width: 770px;
+    height:200px;
+    float:left;
+/*    border:1px solid red;*/
+}
+.feature{
+    width: 200px;
+    float: right;
+/*    border: 1px solid red;*/
+}
+.single{
+    widows: 250px;
+    margin-right: 10px;
+    float: left;
+    margin-top:10px;
+}
+.single:nth-child(3), .single:nth-child(6){
+    margin-right: 0px
+}
+.single a{
+    display: block;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0;
+    text-decoration: none;
+    text-align: center;
+}
+/*Parite presentation offre de la semaine*/
+.deal{
+    width: 200px;
+    height: 260px;
+    float: right;
+    border: 1px solid #999;
+    text-align: center;
+    margin-top: 5px;
+}
+.deal h3{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 5px;
+    margin-bottom: 20px;
+}
+.deal a{
+    display: block;
+    margin: 5px 0;
+    color: #4e5346;
+    
+}
+.deal strong{
+    color: red;
+    font-size: 18px;   
+}
+strong .throught{
+    text-decoration: line-through;
+    color: #333;
+    font-size: 14px
+}
+.philo{
+    width: 770px;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    margin: 20px 0;
+    line-height: 2.5em;
+    color: #fff;
+}
+footer a{
+    color: blanchedalmond;
+    font-weight: bold;
+}
+
+
+
+
