@@ -1,0 +1,169 @@
+@font-face {
+font-family:'Wakisu';
+src: url('WackySushi.ttf');
+}
+
+* {
+        margin: 0;
+        padding: 0;
+		font-family: georgia, arial, sans-serif;
+}
+
+body {
+	background: red;
+}
+
+img {
+	border: 0;
+}
+
+#wrapper {
+	width: 1024px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	text-align: center;
+}
+
+#banner {
+	width: 1024px;
+	height: 250px;
+        background: #ffffff url('images/banner.png') no-repeat left top;
+        background-size: cover;
+	color: #ffffff;
+	font-size: 70px;
+	text-align: center;
+        font-weight: bolder;
+		font-family: 'Wakisu';
+}
+
+#banner span {
+	color: red;
+}
+
+#banner p {
+        padding: 90px 0 0 0;
+}
+
+#nav ul {
+        list-style-type: none;
+}
+
+li {
+	display: inline-block;
+	width: 256px;
+	background: #ffffff url('images/button1.jpg') no-repeat left top;
+	background-size: cover;
+	text-align: center;
+	height: 52px;
+	padding-top: 38px;
+        font-weight: bolder;
+	font-size: 15px;
+}
+
+#button1:hover, #button2:hover, #button3:hover,
+#button4:hover, #button5:hover, #button6:hover {
+	color: red;
+	background: #ffffff url('images/button2.jpg') no-repeat left top;
+	background-size: cover;
+}
+
+.button, #foot a {
+	text-decoration: none;
+	color: #000000;
+	font-weight: bold;
+	background-color:#ffffff;
+}
+
+a {
+	text-decoration: none;
+}
+
+#content {
+    color: #312783;
+	background: #ffffff url('elements/bamboo3.gif') no-repeat bottom;
+	width: 100%;
+	text-align: left;
+}
+
+#content p {
+	margin: 10px;
+	display:inline-block;
+	width: 220px;
+	text-align: justify;
+	color: black;
+}
+
+.bords {
+    	width: 20px;
+	background: #fff url('elements/divers3.jpg') repeat left top;
+}
+
+.pictures {
+	margin: 6px;
+}
+
+#foot {
+	color: #ffffff;
+	background: black;
+	text-align: center;
+	width: 1024px;
+	height: 40px;
+	padding-top: 3px;
+	margin-bottom: 30px;
+	border-radius: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+}
+
+#foot a:hover {
+	color: red;
+}
+
+@media (max-width: 750px) {
+
+   #wrapper {
+         width: 100%;
+   }
+
+   #banner {
+        background: #312783;
+        width: 100%;
+        font-size: 50px;
+        border-radius: 300px;
+
+   }
+
+   li {
+         width: 40%;
+         background: #312783;
+         border-radius: 300px;
+         margin: 10px;
+   }
+
+   #button1:hover, #button2:hover, #button3:hover,
+   #button4:hover, #button5:hover, #button6:hover {
+	color: #eeee00;
+        background: #312783;
+   }
+
+   .bords {
+         display: none;
+   }	
+
+   #content {
+         width: 100%;
+         border: 0;
+   }
+
+   #content p {
+         width: 95%;
+   }
+
+
+   #foot {
+         width: 100%;
+   }
+
+}
