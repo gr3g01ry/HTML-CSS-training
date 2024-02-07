@@ -1,0 +1,121 @@
+/*PARTIE GENERALE*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font:.8em Georgia, "times New Roman", Sans-serif;
+    background-color: #fff;
+    color:#777;
+}
+a{
+    color: #d40000;
+    text-decoration: none;
+}
+a:hover{
+    color:#8f0000;
+}
+p{
+    line-height: 1.7em;
+    margin: 0 0 15px;
+}
+
+/*Partie contenu*/
+/*    LE header*/
+#content{
+    width: 960px;
+    margin:40px auto;
+}
+h1{
+    float:left;
+    font-size:2em;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0 0 25px 10px;
+    margin: 0 0 10px;
+}
+#menu{
+    float: right;
+    margin: 10px 10px 0 0;
+}
+#menu li{
+    display: inline;
+}
+#menu li a{
+    float: left;
+    margin: 0 0 0 20px;
+    color:#888;
+    transition: 2s ease;
+}
+#menu li a:hover{
+    color:#555;
+    text-decoration: underline;
+
+}
+
+/*Seconde parte*/
+.post{
+    padding: 30px 10px;
+    border-top: 3px #ddd groove;    
+    border-bottom: 1px #ddd double;
+    clear: both;
+}
+.post .detail{
+    float: left;
+    width: 250px;
+}
+h2{
+    font-weight: normal;
+    font-size: 2em;
+    padding:0 0 10px;
+    margin: 0 0 15px;
+}
+h2 a{
+    color: #d40000;
+    text-decoration: none;
+}
+.post .detail .info{
+    font-size: .9em;
+    color: #999;    
+}
+.post .detail .info a{
+    color: #777;
+    border-bottom: 1px dotted #999;
+    padding: 3px 1px;
+}
+.post .postbody{
+    float: right;
+    width: 618px;
+    padding: 0 0 0 30px;
+    border-left: 2px solid #ddd;
+}
+.clear{
+    clear: both;
+}
+/*3rd part*/
+.col{
+    width: 290px;
+    margin: 0 40px 30px 0;
+    float: left;
+    font-size: .9em;
+}
+h3{
+    font-size: 1.7em;
+    font-stretch: expanded;
+    font-weight: normal;
+    text-transform: capitalize;
+    margin: 0 0 20px;
+}
+h3 a{
+    color: #222;  
+}
+.last{
+    margin-right: 0px;
+}
+footer{
+    clear: both;
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.2em;
+}
